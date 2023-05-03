@@ -24,7 +24,7 @@ export default function Earth() {
       globeEl.current.controls().autoRotateSpeed = 1.5;
       globeEl.current.pointOfView({lat: 20.5, lng: 78.9, altitude: 2}, 4000);
     }
-  }, [globeEl.current]);
+  }, [globeEl]);
 
   const getTooltip = de =>{
     let d = de.properties
