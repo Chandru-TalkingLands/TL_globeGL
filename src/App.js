@@ -6,8 +6,6 @@ import Preloader from "./preloader/preloader";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-  const [slowMo, setSlowMo] = useState(false);
-
 
   useEffect(() => {
     setTimeout(() => setIsLoading(false),2000); // Simulate a 3-second loading time

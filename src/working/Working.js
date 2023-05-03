@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { Link } from "react-dom";
 import '../working/working.css';
 import Book from "../assets/Book -property.svg"
 import Discover from '../assets/Disover-property.svg' 

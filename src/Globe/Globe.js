@@ -13,7 +13,6 @@ export default function Earth() {
     const filePath = "https://tl-dev2-app-files.s3.ap-south-1.amazonaws.com/store/world_population.json"
     fetch(filePath).then(res => res.json() ).then(({ features }) => {
       setLabels(features)
-      console.log(features)
     })
   },[]) 
 
@@ -22,7 +21,6 @@ export default function Earth() {
       globeEl.current.controls().enablePan = true
       globeEl.current.controls().autoRotate = false;
       globeEl.current.controls().enableZoom = false;
-      globeEl.current.controls()
       globeEl.current.controls().autoRotateSpeed = 1.5;
       globeEl.current.pointOfView({lat: 20.5, lng: 78.9, altitude: 2}, 4000);
     }

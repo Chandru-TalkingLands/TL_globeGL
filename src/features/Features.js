@@ -11,7 +11,7 @@ const Features = () => {
                 <p className="feature-title">Magical Lens</p>
                 <div className="feature-content">
                     <div>
-                        <img className="img" src={Lens} />
+                        <img className="img" alt="lens" src={Lens} />
                     </div>
                     <div className="feature-description">
                         <p>
@@ -31,7 +31,7 @@ const Features = () => {
                         </p>
                     </div>
                     <div>
-                        <img className="img" src={Insights} />
+                        <img className="img" alt="insights" src={Insights} />
                     </div>
                 </div>
             </section>
@@ -40,7 +40,7 @@ const Features = () => {
                 <p className="feature-title">TL Tales</p>
                 <div className="feature-content">
                     <div>
-                        <img className="img" src={Tales} />
+                        <img className="img" alt="tales" src={Tales} />
                     </div>
                     <div className="feature-description">
                         <p>

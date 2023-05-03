@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../footer/footer.css'
-import {LayersControl } from 'react-leaflet';
 import { AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai';
 
 const Footer = () => {
@@ -15,7 +14,7 @@ const Footer = () => {
             <section className='contact'>
                 <p>Contact us</p>
                 <h3 className='contact-text'>We'd love to hear from you</h3>
-                <a href=''>support@talkinglands.com</a>
+                <a href='#'>support@talkinglands.com</a>
             </section>
             <section>
                 <footer class="footer">
