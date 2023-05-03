@@ -1,0 +1,44 @@
+.sign {
+    background-color: #D85E54;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 100px;
+    width: max-content;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(5px);
+    padding: 40px;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+      flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+    /* background-color: #fff; */
+    align-items: center;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .sign {
+      width: max-content;
+      /* height: 32px; */
+      font-size: 14px;
+      /* line-height: 22px; */
+      padding: 8px 24px;
+    }
+  }

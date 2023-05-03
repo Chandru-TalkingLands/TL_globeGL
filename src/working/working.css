@@ -1,0 +1,127 @@
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 80px;
+}
+
+.features-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.features-tabs button {
+    background-color: transparent;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.features-tabs button:hover {
+    color: #333;
+}
+
+.features-tabs button.active {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.feature-item img {
+    max-width: 100%;
+}
+
+.feature-item h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.feature-item p {
+    color: white;
+    opacity: 60%;
+    font-size: 16px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.features-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    align-items: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .features-container {
+        gap: 40px;
+    }
+    .features-tabs {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .features-tabs button {
+        font-size: 18px;
+        margin: 5px;
+        padding: 8px;
+    }
+    .feature-item {
+        text-align: center;
+    }
+    .feature-item h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .feature-item p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .features-content {
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .features-container {
+        gap: 30px;
+    }
+    .features-tabs button {
+        font-size: 16px;
+        margin: 2px;
+        padding: 6px;
+    }
+    .feature-item h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .feature-item p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

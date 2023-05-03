@@ -1,0 +1,70 @@
+input {
+    text-align: left;
+    width: 560px;
+    height: 60px;
+    color: aliceblue;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 0 10px 10px 0;
+    padding: 8px;
+}
+
+option {
+    width: 140px;
+    height: 300px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.animate-search {
+    display: 'flex'; 
+    background-color: 'black'; 
+    justify-content: 'center';
+}
+
+.dropdown {
+    width: 140px;
+    height: 60px;
+    color: #fff;
+    /* background-color: black; */
+     background: rgba(44, 43, 43, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px 0 0 10px;
+    padding: 4px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headText {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.searchcontainer{
+    display: flex;
+     justify-content: center
+}
+
+.searchcontainer select{
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    outline: none;
+}
+
+.searchcontainer input{
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    outline: none;
+}
