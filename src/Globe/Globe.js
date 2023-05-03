@@ -9,22 +9,6 @@ export default function Earth() {
   const shiftAmmount = shiftFactor * h;
   const globeEl = useRef();
 
-  // const handleClick = (event, globeEl) => {
-  //   console.log("HIii")
-  //   if(globeEl.current){
-  //     const latlng = globeEl.current.getCoords(event.clientX, event.clientY);
-  //     const lat = latlng?.lat;
-  //     const lng = latlng?.lng;
-  //     const radius = globeEl.current.opts?.cameraDistance;
-  //     const position = {
-  //       x: radius * Math.sin(lat) * Math.cos(lng),
-  //       y: radius * Math.sin(lat) * Math.sin(lng),
-  //       z: radius * Math.cos(lat)
-  //     };
-  //     globeEl.current.camera()?.position.setLength(globeEl.current.camera().position.length(position.x, position.y, position.z));
-  //   }
-  // }
-
   useEffect(() => {
     const filePath = "https://tl-dev2-app-files.s3.ap-south-1.amazonaws.com/store/world_population.json"
     fetch(filePath).then(res => res.json() ).then(({ features }) => {
@@ -64,7 +48,6 @@ export default function Earth() {
         showAtmosphere="false"
         backgroundColor="black"
         atmosphereAltitude={0.14}
-        // onGlobeClick={handleClick}
         pointLabel={getTooltip}
         labelsData={labels}
         labelLat={d => d.properties.latitude}

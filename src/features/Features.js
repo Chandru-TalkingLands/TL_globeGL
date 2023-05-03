@@ -4,12 +4,9 @@ import Insights from "../assets/Insights.svg"
 import Lens from "../assets/Lens.svg"
 import Tales from "../assets/Tales.svg"
 
-
 const Features = () => {
     return (
         <div>
-            
-            {/* Lens Section */}
             <section className="lens">
                 <p className="feature-title">Magical Lens</p>
                 <div className="feature-content">
@@ -24,7 +21,6 @@ const Features = () => {
                 </div>
             </section>
 
-            {/* Deep Insights Section */}
             <section className="deep-insights">
                 <p className="feature-title">Deep Insights</p>
                 <div className="feature-content">
@@ -40,7 +36,6 @@ const Features = () => {
                 </div>
             </section>
             
-            {/* TL Tales Section */}
             <section className="tl-tales">
                 <p className="feature-title">TL Tales</p>
                 <div className="feature-content">

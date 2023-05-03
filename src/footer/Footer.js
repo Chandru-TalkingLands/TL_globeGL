@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import '../footer/footer.css'
-import { MapContainer ,Popup, TileLayer, Marker, LayersControl } from 'react-leaflet';
-
+import {LayersControl } from 'react-leaflet';
 import { AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai';
-
-const { BaseLayer } = LayersControl;
 
 const Footer = () => {
     const [year, setYear] = useState(new Date().getFullYear());
-    const position = [12.98, 77.61]
 
     useEffect(() => {
         setYear(new Date().getFullYear());
@@ -60,36 +56,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
-
-{/* <ul class="footer__nav">
-                    <li class="nav__item">
-                        <h2 class="nav__title">Links</h2>
-                        <ul class="nav__ul">
-                            <li>
-                                <a href="#">Visit our legacy version</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav__item nav__item--extra">
-                        <h2 class="nav__title">Support</h2>
-                        <ul class="nav__ul nav__ul--extra">
-                            <li>
-                                <a href="#">+91 8068970575</a>
-                            </li>
-                            <li>
-                                <a className='icon' href="#"><AiFillLinkedin /></a>
-                                <a className='icon' href="#"><AiOutlineTwitter /></a>
-                                <a className='icon' href="#"><AiOutlineInstagram /></a>
-                            </li>
-
-                            <br />
-                        </ul>
-                    </li>
-                </ul> */}

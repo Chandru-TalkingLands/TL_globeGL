@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from "../landingPage/landing"
-import Preloader from "../preloader/preloader";
-
 
 const Routers = () => {
 

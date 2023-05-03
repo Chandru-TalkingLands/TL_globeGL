@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import '../preloader/preloader.css'
 
 
-
-
 const Preloader = () => {
     const [animationStage, setAnimationStage] = useState(0);
 const letters = 'Talking Lands'.split('');
@@ -42,49 +40,3 @@ return (
 };
 
 export default Preloader;
-
-
-// import React from "react";
-
-// import '../preloader/preloader.css'
- 
-
-
-
-
-// function Preloader() {
-
-//   return (
-
-//     <div className="loading-container">
-
-//       <div class="spinner">
-
-//   <span></span>
-
-//   <span></span>
-
-//   <span></span>
-
-//   <span></span>
-
-//   <span></span>
-
-//   <span></span>
-
-//   <span></span>
-
-//   <span></span>
-
-// </div>
-
-//     </div>
-
-//   );
-
-// }
-
-
-
-
-// export default Preloader;
