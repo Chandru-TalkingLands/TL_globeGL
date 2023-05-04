@@ -4,7 +4,7 @@ import '../preloader/preloader.css'
 
 const Preloader = () => {
     const [animationStage, setAnimationStage] = useState(0);
-const letters = 'Talking Lands'.split('');
+    const letters = 'Talking Lands'.split('');
 
 const animateLetters = (stage) => {
     if (stage < 4) {
@@ -17,7 +17,7 @@ const animateLetters = (stage) => {
 
 useEffect(() => {
     animateLetters(animationStage);
-}, [animationStage]);
+}, []);
 
 return (
     <div className="animation-wrapper">
