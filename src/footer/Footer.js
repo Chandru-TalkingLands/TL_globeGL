@@ -14,7 +14,7 @@ const Footer = () => {
             <section className='contact'>
                 <p>Contact us</p>
                 <h3 className='contact-text'>We'd love to hear from you</h3>
-                <a href='#'>support@talkinglands.com</a>
+                <a href='https://talkinglands.com/'>support@talkinglands.com</a>
             </section>
             <section>
                 <footer class="footer">
@@ -32,9 +32,9 @@ const Footer = () => {
                             <h3>Support</h3>
                             <p className="">+91 8068970575</p>
                             <div className=''>
-                                <a className='icon' href="#"><AiFillLinkedin /></a>
-                                <a className='icon' href="#"><AiOutlineTwitter /></a>
-                                <a className='icon' href="#"><AiOutlineInstagram /></a>
+                                <a className='icon' href="https://talkinglands.com/"><AiFillLinkedin /></a>
+                                <a className='icon' href="https://talkinglands.com/"><AiOutlineTwitter /></a>
+                                <a className='icon' href="https://talkinglands.com/"><AiOutlineInstagram /></a>
                             </div>
 
                         </div>
